@@ -1,6 +1,6 @@
 import { motion } from 'motion/react';
 import { ShoppingCart, Plus } from 'lucide-react';
-import { Product } from '../store-data';
+import type { Product } from '../store-data';
 import { useCart } from '../cart-context';
 import { toast } from 'sonner';
 import { ImageWithFallback } from './figma/ImageWithFallback';
